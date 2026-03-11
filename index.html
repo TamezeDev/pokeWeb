@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="son pruebas" />
+    <title>Mi web de pruebas</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./title.png" type="favicon" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <section class="logo">
+        <h2>🐦‍🔥</h2>
+        <h3>POKÉ-FANS</h3>
+      </section>
+      <nav>
+        <ul>
+          <li><a href="#gallery">Galería</a></li>
+          <li><a href="#info">Información</a></li>
+          <li><a href="#news">Noticias</a></li>
+          <li><a href="#user-upload">Subir Fotos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-content">
+      <section id="gallery" class="gallery">
+        <h2>Galería de imágenes</h2>
+      </section>
+      <section id="info" class="info">
+        <form class="poke-searcher" action="#" method="get">
+          <label for="searcher">Información</label>
+          <input
+            type="text"
+            id="searcher"
+            name="pokemon"
+            placeholder="Buscar pokémon"
+          />
+          <button id="submit">🔎</button>
+        </form>
+        <article class="poke-info"></article>
+      </section>
+      <section id="news">
+        <h2>Noticias Pokémon</h2>
+        <a
+          href="https://www.pokemon.com/es/noticias-pokemon/pokemon-pokopia-ya-esta-disponible-para-nintendo-switch-2"
+          ><article class="info-card">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-pokopia/2026/03/05/pokemon-pokopia-169.png"
+              alt="imagen noticia pokemon"
+            />
+            <div class="info-pack">
+              <p>05 de marzo de 2026</p>
+              <p>Videojuegos y aplicaciones</p>
+              <h4>
+                05 de marzo de 2026 Pokémon Pokopia ya está disponible para
+                Nintendo Switch 2
+              </h4>
+              <p>
+                Con el lanzamiento de esta nueva aventura "relajaditta", ya se
+                puede disfrutar del primer evento por tiempo limitado del juego
+                y un regalo por compra temprana
+              </p>
+            </div>
+          </article></a
+        >
+        <a
+          href="https://www.pokemon.com/es/noticias-pokemon/llevate-megaesquirlas-en-esta-temporada-especial-de-combates-clasificatorios-de-leyendas-pokemon-z-a-8-temporada"
+          ><article class="info-card">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2-es-es/img/video-games/_tiles/pokemon-legends-z-a/events/2026/03/05/pokemon-legends-z-a-169-es.png"
+              alt="imagen noticia pokemon"
+            />
+            <div class="info-pack">
+              <p>05 de marzo de 2026</p>
+              <p>Videojuegos y aplicaciones</p>
+              <h4>
+                05 de marzo de 2026 Llévate Megaesquirlas en esta temporada
+                especial de Combates Clasificatorios de Leyendas Pokémon: Z‑A
+                (8.ª temporada)
+              </h4>
+              <p>
+                Combate con Pokémon cuyas megaevoluciones se acaban de descubrir
+                para subir de rango y conseguir recompensas en el juego
+              </p>
+            </div>
+          </article></a
+        >
+
+        <a
+          href="https://www.pokemon.com/es/noticias-pokemon/preparate-para-la-rotacion-con-el-evento-de-la-temporada-escolar-de-jcc-pokemon-live"
+          ><article class="info-card">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2-es-es/img/trading-card-game/_tiles/tcgl/2026/03/05/tcgl-169-es.png"
+              alt="imagen noticia pokemon"
+            />
+            <div class="info-pack">
+              <p>05 de marzo de 2026</p>
+              <p>VJuego de cartas y coleccionables</p>
+              <h4>
+                Prepárate para la rotación con el evento de la temporada escolar
+                de JCC Pokémon Live
+              </h4>
+              <p>
+                La rotación puede resultar complicada, pero este evento te
+                ayudará
+              </p>
+            </div>
+          </article></a
+        >
+        <a
+          href="https://www.pokemon.com/es/noticias-pokemon/descubre-como-es-visitar-la-atraccion-pokepark-kanto-de-japon"
+          ><article class="info-card">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/misc/_tiles/2026/pokepark-kanto/pokepark-169.jpg"
+              alt="imagen noticia pokemon"
+            />
+            <div class="info-pack">
+              <p>04 de marzo de 2026</p>
+              <p>General</p>
+              <h4>
+                Descubre cómo es visitar la atracción PokéPark KANTO de Japón
+              </h4>
+              <p>
+                Viajamos hasta Tokio para adentrarnos en el mundo de Pokémon y
+                conocer más sobre la creación del parque
+              </p>
+            </div>
+          </article></a
+        >
+      </section>
+      <section id="user-upload" class="upload">
+        <h2>Galería personal</h2>
+        <article class="own-gallery">
+          <section class="personal_photos"></section>
+          <fieldset>
+            <label for="upload">Seleccionar archivo</label>
+            <input
+              class="upload-content"
+              id="upload"
+              name="upload"
+              type="file"
+              accept="image/png, image/jpeg, image/jpg"
+              multiple
+            />
+          </fieldset>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <a href="mailto:pokefans@://gmail.com"> Contacta con nosotros </a>
+      <p>&copy; 2026 Poké-fans - Todos lo derechos reservador</p>
+    </footer>
+  </body>
+</html>
